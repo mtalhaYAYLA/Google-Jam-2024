@@ -16,3 +16,5 @@ https://slurpcanon.itch.io/2d-platformer-cartoon-pack?download
 - FREE SATYR TINY STYLE 2D SPRITES: 
 https://craftpix.net/freebies/free-satyr-tiny-style-2d-sprites/
 https://kenney.nl/assets/mini-dungeon
+- Dungeon Pack
+https://mrscientist.itch.io/3d-low-poly-modular-dungeon
