@@ -1,11 +1,12 @@
 # Google-Jam-2024
 ## Made for Google Game & Application Academy Game Jam
 Creators:
-- Muhammed Talha Yayla
-- Yasin Çağatay Özbek
-- Hanife celikoglu
-- Ebrar Ağralı
-- Mert Arslan
+- [Muhammed Talha Yayla](https://github.com/mtalhayayla)
+- [Yasin Çağatay Özbek](https://github.com/yasincagatayozbek)
+- [Hanife Celikoğlu](https://github.com/hanifecelikoglu)
+- [Ebrar Ağralı](https://github.com/ebraragrali)
+- [Mert Arslan](https://github.com/mertarslan)
+
 
 Assets:
 - Free Stick Swordman 2D Character Sprite:	
