@@ -1,11 +1,11 @@
 # Google-Jam-2024
 ## Made for Google Game & Application Academy Game Jam
 Creators:
-- [Muhammed Talha Yayla](https://github.com/mtalhayayla)
-- [Yasin Çağatay Özbek](https://github.com/yasincagatayozbek)
-- [Hanife Celikoğlu](https://github.com/hanifecelikoglu)
+- [Muhammed Talha Yayla](https://github.com/mtalhaYAYLA)
+- [Yasin Çağatay Özbek](https://github.com/Cagatay5858)
+- [Hanife Celikoğlu](https://github.com/)
 - [Ebrar Ağralı](https://github.com/ebraragrali)
-- [Mert Arslan](https://github.com/mertarslan)
+- [Mert Arslan](https://github.com/MertArslanC)
 
 
 Assets:
