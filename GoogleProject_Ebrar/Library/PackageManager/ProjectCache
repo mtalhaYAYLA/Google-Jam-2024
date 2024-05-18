@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638516383320893427
-    m_Hash: 2731787309
+      ticks: 638516429070825013
+    m_Hash: 2821694689
   m_LockFileStatus:
     m_FilePath: C:/Users/mert1/OneDrive/Documents/GitHub/Google-Jam-2024/GoogleProject_Ebrar/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638516383321013450
-    m_Hash: 667372533
+      ticks: 638516429070840425
+    m_Hash: 2467525349
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
