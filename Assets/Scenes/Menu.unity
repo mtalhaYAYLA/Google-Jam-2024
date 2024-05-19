@@ -14,7 +14,7 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 0
+  m_Fog: 1
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
   m_FogDensity: 0.01
@@ -697,8 +697,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Haz\u0131rlayanlar\n-Ebrar A\u011Fral\u0131\r\n-Mert Arslan\r\n-Yasin
-    \xC7a\u011Fatay \xD6zbek\r\n-Hanife \xC7eliko\u011Flu\r\n-Muhammed Talha Yayla"
+  m_text: "Haz\u0131rlayanlar\n-Ebrar A\u011Fral\u0131\r\n-Mert Arslan\r\n-Hanife
+    \xC7eliko\u011Flu\r\n-Yasin \xC7a\u011Fatay \xD6zbek\r\n-Muhammed Talha Yayla"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
