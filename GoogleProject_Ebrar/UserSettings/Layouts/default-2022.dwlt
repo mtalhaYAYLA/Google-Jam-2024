@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 95
+  controlID: 40
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -464,7 +464,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Textures/Floor
+    - Assets/Textures/Wall
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -472,16 +472,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Textures/Floor
+  - Assets/Textures/Wall
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\mert1\OneDrive\Documents\GitHub\Google-Jam-2024\GoogleProject_Ebrar
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 11}
-    m_SelectedIDs: 3c870000
-    m_LastClickedID: 34620
-    m_ExpandedIDs: 0000000006640000f07c000000ca9a3b
+    scrollPos: {x: 0, y: 27}
+    m_SelectedIDs: c4660000
+    m_LastClickedID: 26308
+    m_ExpandedIDs: 00000000bc660000c066000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -648,10 +648,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 613}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 2efbffff645d000034610000a4620000ae62000046630000
+      scrollPos: {x: 0, y: 1680}
+      m_SelectedIDs: 46650000
+      m_LastClickedID: 25926
+      m_ExpandedIDs: 2efbffff945d0000a8620000fa64000004650000c6650000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1057,9 +1057,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 9.3137665, y: -35.427284, z: 81.46067}
+    m_Target: {x: -17.089687, y: -10.710929, z: -21.323751}
     speed: 2
-    m_Value: {x: 9.3137665, y: -35.427284, z: 81.46067}
+    m_Value: {x: -17.089687, y: -10.710929, z: -21.323751}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1105,13 +1105,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.2485337, y: 0.32549626, z: -0.08988471, w: -0.9084781}
+    m_Target: {x: -0.03453737, y: 0.96499616, z: -0.17909442, w: -0.19151066}
     speed: 2
-    m_Value: {x: -0.2470317, y: 0.3254474, z: -0.08934499, w: -0.90833735}
+    m_Value: {x: -0.033980206, y: 0.9650061, z: -0.17909326, w: -0.18850538}
   m_Size:
-    m_Target: 87.59855
+    m_Target: 53.837658
     speed: 2
-    m_Value: 91.72623
+    m_Value: 51.51929
   m_Ortho:
     m_Target: 0
     speed: 2
