@@ -6,6 +6,7 @@ public class OpenKeyPad : MonoBehaviour
 {
     public GameObject keypadOB;
     public GameObject keypadText;
+    public GameObject player;
 
     public bool inReach;
 
@@ -21,6 +22,7 @@ public class OpenKeyPad : MonoBehaviour
         {
             inReach = true;
             keypadText.SetActive(true);
+
 
         }
     }
@@ -40,9 +42,10 @@ public class OpenKeyPad : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetButtonDown("Interact") && inReach)
+        if(Input.GetKeyDown(KeyCode.E) && inReach)
         {
             keypadOB.SetActive(true);
+            
         }
         
 

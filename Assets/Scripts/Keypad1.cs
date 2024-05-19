@@ -8,11 +8,10 @@ public class Keypad : MonoBehaviour
 {
     public GameObject player;
     public GameObject keypadOB;
-
-
-    public GameObject animateOB;
-    public Animator ANI;
-
+    public GameObject gateDoor;
+    private Animator anim;
+    
+  
 
     public Text textOB;
     public string answer = "12345";
@@ -21,12 +20,16 @@ public class Keypad : MonoBehaviour
     public AudioSource correct;
     public AudioSource wrong;
 
-    public bool animate;
+    
+   
 
 
     void Start()
     {
         keypadOB.SetActive(false);
+       
+       
+
 
     }
 
@@ -43,7 +46,12 @@ public class Keypad : MonoBehaviour
         {
             correct.Play();
             textOB.text = "Doğru";
-
+            anim = gateDoor.GetComponent<Animator>();
+            anim.Play("Open");
+            keypadOB.SetActive(false);
+            player.GetComponent<CharacterController>().enabled = true;
+            Cursor.visible = false;
+            Cursor.lockState = CursorLockMode.Confined;
         }
         else
         {
@@ -66,24 +74,37 @@ public class Keypad : MonoBehaviour
     {
         keypadOB.SetActive(false);
         player.GetComponent<CharacterController>().enabled = true;
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Confined;
+        
     }
+
+   
+
 
     public void Update()
     {
-        if (textOB.text == "Right" && animate)
+        if (textOB.text == "Right")
         {
-            ANI.SetBool("animate", true);
+            
             Debug.Log("its open");
+
+            
         }
 
-
-        if(keypadOB.activeInHierarchy)
+        if (keypadOB.activeInHierarchy)
         {
             
             player.GetComponent<CharacterController>().enabled = false;
             Cursor.visible = true;
-            Cursor.lockState = CursorLockMode.None;
+            Cursor.lockState = CursorLockMode.Confined;
+            
         }
+
+        
+        
+
+        
 
     }
 
