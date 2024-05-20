@@ -325,10 +325,10 @@ RectTransform:
   - {fileID: 1689198022}
   m_Father: {fileID: 1818121503}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.10922918, y: 0.41400003}
-  m_AnchorMax: {x: 0.26200002, y: 0.44500002}
-  m_AnchoredPosition: {x: -0.74993896, y: -0.3245926}
-  m_SizeDelta: {x: -1.5, y: -3}
+  m_AnchorMin: {x: 0.47756252, y: 0.54785186}
+  m_AnchorMax: {x: 0.651, y: 0.5741482}
+  m_AnchoredPosition: {x: -20.500122, y: -1.3246155}
+  m_SizeDelta: {x: -38.5, y: 2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &430666122
 MonoBehaviour:
@@ -674,100 +674,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &749612085
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 749612087}
-  - component: {fileID: 749612086}
-  m_Layer: 0
-  m_Name: Directional Light
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!108 &749612086
-Light:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 749612085}
-  m_Enabled: 1
-  serializedVersion: 10
-  m_Type: 1
-  m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
-  m_Range: 10
-  m_SpotAngle: 30
-  m_InnerSpotAngle: 21.80208
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 2
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-    m_CullingMatrixOverride:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingLayerMask: 1
-  m_Lightmapping: 4
-  m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
---- !u!4 &749612087
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 749612085}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &1567152407
 GameObject:
   m_ObjectHideFlags: 0
@@ -800,10 +706,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1818121503}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.675, y: 0.326}
-  m_AnchorMax: {x: 0.9007291, y: 0.6611111}
-  m_AnchoredPosition: {x: -0.7494507, y: 1}
-  m_SizeDelta: {x: -0.20498657, y: 2.1669922}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0.165}
+  m_AnchoredPosition: {x: -762.49994, y: -89.50003}
+  m_SizeDelta: {x: -1487.205, y: 185.16699}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1567152409
 MonoBehaviour:
@@ -825,8 +731,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Haz\u0131rlayanlar\n-Ebrar A\u011Fral\u0131\r\n-Mert Arslan\r\n-Hanife
-    \xC7eliko\u011Flu\r\n-Yasin \xC7a\u011Fatay \xD6zbek\r\n-Muhammed Talha Yayla"
+  m_text: "Haz\u0131rlayanlar:\n                    -Ebrar A\u011EralI -Mert Arslan
+    -Hanife \xC7eliko\u011Flu -Yasin \xC7a\u011Fatay \xD6zbek -Muhammed Talha Yayla"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a7a113071512be041874d98e6e20026b, type: 2}
   m_sharedMaterial: {fileID: -8615037618206688421, guid: a7a113071512be041874d98e6e20026b, type: 2}
@@ -853,15 +759,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 28
-  m_fontSizeBase: 28
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -889,7 +795,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 18.94069, y: 0, z: -1503.1198, w: 188.81224}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1072,10 +978,10 @@ RectTransform:
   - {fileID: 447794575}
   m_Father: {fileID: 1818121503}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.10922918, y: 0.4785556}
-  m_AnchorMax: {x: 0.26200002, y: 0.514}
-  m_AnchoredPosition: {x: -0.74993896, y: 3.5}
-  m_SizeDelta: {x: -1.5, y: -7}
+  m_AnchorMin: {x: 0.4811874, y: 0.61770374}
+  m_AnchorMax: {x: 0.6276041, y: 0.64633334}
+  m_AnchoredPosition: {x: -1, y: -2.5}
+  m_SizeDelta: {x: 8.5, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1618704172
 MonoBehaviour:
@@ -1495,6 +1401,5 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 749612087}
   - {fileID: 9311740}
   - {fileID: 642008364}

@@ -11,4 +11,6 @@ public class LoadManager : MonoBehaviour
     {
         SceneManager.LoadScene(sceneNumber);
     }
+
+    
 }

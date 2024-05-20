@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Oyun.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/LoadingScene.unity
+    guid: a9affa838372c4b42afa04ed078d0571
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 47d523a9b9bf28045bcd17a3b985faca
   m_configObjects: {}
