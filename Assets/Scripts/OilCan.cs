@@ -32,8 +32,8 @@ public class OilCan : MonoBehaviour
             oilPickedUp = true;
             Destroy(oilCan);
             fillSound.Play();
-            amount = LanternFuel.getFuelAmount();
-            LanternFuel.setFuelAmount(amount++);
+            amount = 1.5f;
+            LanternFuel.setFuelAmount(amount);
         }
 
 
