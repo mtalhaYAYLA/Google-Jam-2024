@@ -9,12 +9,18 @@ Creators:
 
 
 Assets:
-- Free Stick Swordman 2D Character Sprite:	
-https://www.artstation.com/marketplace/p/V0Ov/free-stick-swordman-2d-character-sprite
-- 2D Platformer Cartoon Pack: 
-https://slurpcanon.itch.io/2d-platformer-cartoon-pack?download
-- FREE SATYR TINY STYLE 2D SPRITES: 
-https://craftpix.net/freebies/free-satyr-tiny-style-2d-sprites/
-https://kenney.nl/assets/mini-dungeon
-- Dungeon Pack
-https://mrscientist.itch.io/3d-low-poly-modular-dungeon
+-Male Character
+https://sketchfab.com/3d-models/male-body-base-mesh-5196847b14934b97a264248d1f6c4431
+-Çeşitli assetler: https://polyhaven.com/models
+-Keypad:
+https://sketchfab.com/3d-models/aperturevr-arg-keypad-2c0e189ff0244fc8b04c999d1acc21ac
+-Key:
+https://sketchfab.com/3d-models/key-7a0f6aaffe604d65bb560955990ce68b
+-Keypad UI:
+https://drive.google.com/drive/folders/1FE5DH1ib-o2rmym7FXZDRDMxJAuXQKsD
+-Correct Sound:
+https://freesound.org/people/StavSounds/sounds/546083/
+-Wrong Sound:
+https://freesound.org/people/Raclure/sounds/483598/
+-Button Sound:
+https://freesound.org/people/Coral_Island_Studios/sounds/277662/
