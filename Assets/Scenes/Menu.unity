@@ -373,7 +373,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1689198023}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1618704175}
+        m_TargetAssemblyTypeName: LoadManager, Assembly-CSharp
+        m_MethodName: QuitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &430666123
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -706,10 +718,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1818121503}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0.165}
-  m_AnchoredPosition: {x: -762.49994, y: -89.50003}
-  m_SizeDelta: {x: -1487.205, y: 185.16699}
+  m_AnchorMin: {x: 0.015520833, y: 0}
+  m_AnchorMax: {x: 1, y: 0.16455558}
+  m_AnchoredPosition: {x: -777.4999, y: -89.50003}
+  m_SizeDelta: {x: -1457.205, y: 185.16699}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1567152409
 MonoBehaviour:
@@ -795,7 +807,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 18.94069, y: 0, z: -1503.1198, w: 188.81224}
+  m_margin: {x: 47.776794, y: 0, z: -1503.1198, w: 188.81224}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -841,10 +853,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1818121503}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.098354176, y: 0.601}
-  m_AnchorMax: {x: 0.32239583, y: 0.9341111}
-  m_AnchoredPosition: {x: -2.5, y: 3}
-  m_SizeDelta: {x: 2.795044, y: 3.1669922}
+  m_AnchorMin: {x: 0.70460415, y: 0.62700003}
+  m_AnchorMax: {x: 0.93000007, y: 0.9613704}
+  m_AnchoredPosition: {x: 2.5, y: -1.5}
+  m_SizeDelta: {x: -0.20495605, y: 2.1669922}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1587609040
 MonoBehaviour:
@@ -866,7 +878,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Karanl\u0131k Zindan"
+  m_text: KaranlIk Zindan
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a7a113071512be041874d98e6e20026b, type: 2}
   m_sharedMaterial: {fileID: -8615037618206688421, guid: a7a113071512be041874d98e6e20026b, type: 2}

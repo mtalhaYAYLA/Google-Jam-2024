@@ -12,5 +12,11 @@ public class LoadManager : MonoBehaviour
         SceneManager.LoadScene(sceneNumber);
     }
 
+    public void QuitGame()
+    {
+        Application.Quit();
+        Debug.Log("Oyun Kapandi");
+    }
+
     
 }
