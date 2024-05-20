@@ -6,6 +6,7 @@ public class PlayerTrigger : MonoBehaviour
 {
     public GameObject monster;
     public Transform monsterStartPoint;
+    public GameObject triggerPlayer;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -15,6 +16,7 @@ public class PlayerTrigger : MonoBehaviour
             Debug.Log("Player trigger entered. Resetting monster position.");
             monster.transform.position = monsterStartPoint.position;
             monster.SetActive(true); // Canavarý aktif hale getiriyoruz
+            Destroy(triggerPlayer);
 
         }
     }
