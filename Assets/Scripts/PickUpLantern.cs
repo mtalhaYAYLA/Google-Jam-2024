@@ -29,7 +29,7 @@ public class PickUpLantern : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E) && inReach)
         {
             lanternPickedUp = true;
-            pickableLantern.SetActive(false);
+            Destroy(pickableLantern);
             playerLantern.SetActive(true);
             LanternFuel.setOnHand(true);
         }

@@ -10,4 +10,5 @@ public class Gosterge : MonoBehaviour
     {
         sayac.text = LanternFuel.getFuelAmount().ToString("F2");
     }
+    
 }
