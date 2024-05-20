@@ -11,12 +11,11 @@ public class PlayerTrigger : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            //Burada Canavar Serbest Kaldý UI Açýlacak ve belli bir süre sonra kapatýlacak
             Debug.Log("Player trigger entered. Resetting monster position.");
             monster.transform.position = monsterStartPoint.position;
             monster.SetActive(true); // Canavarý aktif hale getiriyoruz
 
-            // Debug log ekle
-            Debug.Log($"Monster new position: {monster.transform.position}");
         }
     }
 }

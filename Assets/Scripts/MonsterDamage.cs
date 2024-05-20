@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MonsterDamage : MonoBehaviour
 {
@@ -13,8 +14,8 @@ public class MonsterDamage : MonoBehaviour
     }
     private void EndGame()
     {
-        // Oyun durdurma iþlemleri burada yapýlýr
-        Debug.Log("Monster touched the player! Game Over.");
-        // StartCoroutine(StopGame());
+        //Game Over Sahnesi Açýlacak
+        //Debug.Log("Monster touched the player! Game Over.");
+        SceneManager.LoadScene("GameOver");
     }
 }
