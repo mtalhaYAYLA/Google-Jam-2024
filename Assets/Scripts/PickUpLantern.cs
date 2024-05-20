@@ -31,6 +31,7 @@ public class PickUpLantern : MonoBehaviour
             lanternPickedUp = true;
             pickableLantern.SetActive(false);
             playerLantern.SetActive(true);
+            LanternFuel.setOnHand(true);
         }
 
 

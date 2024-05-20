@@ -8,6 +8,7 @@ public class OilCan : MonoBehaviour
     public bool oilPickedUp;
     public GameObject oilCan;
     public AudioSource fillSound;
+    private float amount = 0f;
 
     public void Start()
     {
@@ -19,7 +20,7 @@ public class OilCan : MonoBehaviour
         if (other.gameObject.tag == "Reach")
         {
             inReach = true;
-
+            
         }
 
        
@@ -31,8 +32,14 @@ public class OilCan : MonoBehaviour
             oilPickedUp = true;
             oilCan.SetActive(false);
             fillSound.Play();
+            amount = LanternFuel.getFuelAmount();
+            LanternFuel.setFuelAmount(amount++);
         }
 
 
+    }
+    public bool getInReach()
+    {
+        return inReach;
     }
 }

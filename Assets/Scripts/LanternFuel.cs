@@ -7,8 +7,8 @@ public class LanternFuel : MonoBehaviour
 
     // Update is called once per frame
     public Light pointLight;
-    public float fuel = 7f;
-    private float decreaseRate = 0.05f; // Her saniyede range deðerini azaltmak için kullanýlacak miktar
+    private static float fuel = 7f;
+    private float decreaseRate = 0.08f; // Her saniyede range deðerini azaltmak için kullanýlacak miktar
     private static bool onHand = false;
     void Update()
     {
@@ -19,13 +19,7 @@ public class LanternFuel : MonoBehaviour
             
         }
     }
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("Oil"))
-        {
-            fuel++;
-        }
-    }
+    
 
     public bool getOnHand()
     {
@@ -34,5 +28,13 @@ public class LanternFuel : MonoBehaviour
     public static void setOnHand(bool v)
     {
         onHand = v;
+    }
+    public static void setFuelAmount(float amount)
+    {
+        fuel = fuel + amount;
+    }
+    public static float getFuelAmount()
+    {
+        return fuel;
     }
 }
