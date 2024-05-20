@@ -325,10 +325,10 @@ RectTransform:
   - {fileID: 1689198022}
   m_Father: {fileID: 1818121503}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.10922918, y: 0.41400003}
-  m_AnchorMax: {x: 0.26200002, y: 0.44500002}
-  m_AnchoredPosition: {x: -0.74993896, y: -0.3245926}
-  m_SizeDelta: {x: -1.5, y: -3}
+  m_AnchorMin: {x: 0.47756252, y: 0.54785186}
+  m_AnchorMax: {x: 0.651, y: 0.5741482}
+  m_AnchoredPosition: {x: -20.500122, y: -1.3246155}
+  m_SizeDelta: {x: -38.5, y: 2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &430666122
 MonoBehaviour:
@@ -800,10 +800,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1818121503}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.675, y: 0.326}
-  m_AnchorMax: {x: 0.9007291, y: 0.6611111}
-  m_AnchoredPosition: {x: -0.7494507, y: 1}
-  m_SizeDelta: {x: -0.20498657, y: 2.1669922}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0.165}
+  m_AnchoredPosition: {x: -762.49994, y: -89.50003}
+  m_SizeDelta: {x: -1487.205, y: 185.16699}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1567152409
 MonoBehaviour:
@@ -825,8 +825,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Haz\u0131rlayanlar\n-Ebrar A\u011Fral\u0131\r\n-Mert Arslan\r\n-Hanife
-    \xC7eliko\u011Flu\r\n-Yasin \xC7a\u011Fatay \xD6zbek\r\n-Muhammed Talha Yayla"
+  m_text: "Haz\u0131rlayanlar:\n                    -Ebrar A\u011EralI -Mert Arslan
+    -Hanife \xC7eliko\u011Flu -Yasin \xC7a\u011Fatay \xD6zbek -Muhammed Talha Yayla"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a7a113071512be041874d98e6e20026b, type: 2}
   m_sharedMaterial: {fileID: -8615037618206688421, guid: a7a113071512be041874d98e6e20026b, type: 2}
@@ -853,15 +853,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 28
-  m_fontSizeBase: 28
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -889,7 +889,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 18.94069, y: 0, z: -1503.1198, w: 188.81224}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1072,10 +1072,10 @@ RectTransform:
   - {fileID: 447794575}
   m_Father: {fileID: 1818121503}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.10922918, y: 0.4785556}
-  m_AnchorMax: {x: 0.26200002, y: 0.514}
-  m_AnchoredPosition: {x: -0.74993896, y: 3.5}
-  m_SizeDelta: {x: -1.5, y: -7}
+  m_AnchorMin: {x: 0.4811874, y: 0.61770374}
+  m_AnchorMax: {x: 0.6276041, y: 0.64633334}
+  m_AnchoredPosition: {x: -1, y: -2.5}
+  m_SizeDelta: {x: 8.5, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1618704172
 MonoBehaviour:
