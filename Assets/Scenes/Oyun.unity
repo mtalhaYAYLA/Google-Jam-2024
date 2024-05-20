@@ -22464,7 +22464,7 @@ GameObject:
   - component: {fileID: 1089012649}
   - component: {fileID: 1089012648}
   m_Layer: 0
-  m_Name: DuvarSag (67)
+  m_Name: TriggerEvent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22497,6 +22497,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b89e9c673b3acfa46bb6eba6279d0bcd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerCharacter: {fileID: 5089140623436905102}
+  triggerPlayer: {fileID: 1089012646}
 --- !u!65 &1089012649
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -42789,7 +42791,6 @@ Transform:
   - {fileID: 787645600}
   - {fileID: 1718180270}
   - {fileID: 432812073}
-  - {fileID: 1089012647}
   - {fileID: 283240215}
   - {fileID: 1875195165}
   - {fileID: 1008934480}
@@ -42855,6 +42856,7 @@ Transform:
   - {fileID: 2120974966}
   - {fileID: 651152468}
   - {fileID: 2084454239}
+  - {fileID: 1089012647}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1998563891
