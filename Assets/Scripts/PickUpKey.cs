@@ -1,32 +1,40 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PickUpKey : MonoBehaviour
 {
-    public GameObject woodGate;
+    public Animator woodGate;
     public bool pickedUpKey;
-    
-    
-    private Animator anim;
-    public GameObject keyDoor;
+    public bool inReach;
+    public GameObject key;
 
-    private void Start()
+    public void Start()
     {
-        anim = GetComponent<Animator>();
+        inReach = false;
+        pickedUpKey = false;
+        
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        
-
-        if (Input.GetKeyDown(KeyCode.E))
+        if (other.gameObject.tag == "Reach")
         {
-            
-            anim.Play("Open");
-            Destroy(keyDoor);
-            inReach = false;
-            pickedUpKey = true;
+            inReach = true;
+
         }
+    }
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.E) && inReach)
+        {
+            pickedUpKey = true;
+            Destroy(key);
+            woodGate.Play("Open");
+        }
+
+
     }
 }

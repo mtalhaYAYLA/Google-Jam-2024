@@ -15763,6 +15763,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6051782384915470229, guid: 23bea52a720b30b4c91a91c456a82876, type: 3}
   m_PrefabInstance: {fileID: 719827094}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &719827097 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 248820577570498630, guid: 23bea52a720b30b4c91a91c456a82876, type: 3}
+  m_PrefabInstance: {fileID: 719827094}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &729833690
 GameObject:
   m_ObjectHideFlags: 0
@@ -15927,36 +15932,19 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4041059778168406398, guid: 49c9a3022aa6c7b4cb00a0e0beb6352f, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 732872776}
-    - targetCorrespondingSourceObject: {fileID: 4041059778168406398, guid: 49c9a3022aa6c7b4cb00a0e0beb6352f, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 732872778}
     - targetCorrespondingSourceObject: {fileID: 4041059778168406398, guid: 49c9a3022aa6c7b4cb00a0e0beb6352f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 732872779}
+    - targetCorrespondingSourceObject: {fileID: 4041059778168406398, guid: 49c9a3022aa6c7b4cb00a0e0beb6352f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 732872781}
   m_SourcePrefab: {fileID: 100100000, guid: 49c9a3022aa6c7b4cb00a0e0beb6352f, type: 3}
 --- !u!1 &732872775 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4041059778168406398, guid: 49c9a3022aa6c7b4cb00a0e0beb6352f, type: 3}
   m_PrefabInstance: {fileID: 732872774}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &732872776
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 732872775}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5d6dfac4b946514fa3c65c94e1481d4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  woodGate: {fileID: 719827096}
-  pickedUpKey: 0
-  warningText: {fileID: 5089140623436905103}
-  inReach: 0
-  keyDoor: {fileID: 732872775}
 --- !u!65 &732872778
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15992,6 +15980,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inReach: 0
   uiTextObject: {fileID: 5089140623436905103}
+--- !u!114 &732872781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 732872775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5d6dfac4b946514fa3c65c94e1481d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  woodGate: {fileID: 719827097}
+  pickedUpKey: 0
+  inReach: 0
+  key: {fileID: 732872775}
 --- !u!1 &741679022
 GameObject:
   m_ObjectHideFlags: 0
