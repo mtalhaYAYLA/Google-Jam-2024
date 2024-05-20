@@ -14,6 +14,7 @@ public class SimpleFPS : MonoBehaviour
     private CharacterController controller;
     private Vector3 playerVelocity;
     private bool isJumping;
+    public bool lockCamera = false;
 
     void Start()
     {
@@ -49,23 +50,31 @@ public class SimpleFPS : MonoBehaviour
         playerVelocity.y += Physics.gravity.y * Time.deltaTime;
         controller.Move(playerVelocity * Time.deltaTime);
 
-        // Player camera control
-        float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity;
-        float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity;
-        transform.Rotate(Vector3.up * mouseX);
-
-        // Rotate the camera vertically
-        Vector3 currentRotation = cameraTransform.rotation.eulerAngles;
-        float desiredRotationX = currentRotation.x - mouseY;
-        if (desiredRotationX > 180)
-            desiredRotationX -= 360;
-        desiredRotationX = Mathf.Clamp(desiredRotationX, -90f, 90f);
-        cameraTransform.rotation = Quaternion.Euler(desiredRotationX, currentRotation.y, currentRotation.z);
+        CameraControl();
+        
         
         if (Input.GetKeyDown(KeyCode.H) && ilkKagitAcik)
         {
             ilkKagitAcik = false;
             ilkKagit.SetActive(false);
         }
+
+        
+    }
+
+    void CameraControl()
+    {
+        if (lockCamera) return;
+        // Player camera control
+        float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity;
+        float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity;
+        transform.Rotate(Vector3.up * mouseX);
+
+        Vector3 currentRotation = cameraTransform.rotation.eulerAngles;
+        float desiredRotationX = currentRotation.x - mouseY;
+        if (desiredRotationX > 180)
+            desiredRotationX -= 360;
+        desiredRotationX = Mathf.Clamp(desiredRotationX, -90f, 90f);
+        cameraTransform.rotation = Quaternion.Euler(desiredRotationX, currentRotation.y, currentRotation.z);
     }
 }

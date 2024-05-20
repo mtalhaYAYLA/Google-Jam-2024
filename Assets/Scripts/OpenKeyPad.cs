@@ -6,7 +6,7 @@ public class OpenKeyPad : MonoBehaviour
 {
     public GameObject keypadOB;
     public GameObject keypadText;
-    public GameObject player;
+    
 
     public bool inReach;
 

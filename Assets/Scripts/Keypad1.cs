@@ -50,7 +50,8 @@ public class Keypad : MonoBehaviour
             anim = gateDoor.GetComponent<Animator>();
             anim.Play("Open");
             keypadOB.SetActive(false);
-            player.GetComponent<CharacterController>().enabled = true;
+            player.transform.position = player.transform.position;
+            player.GetComponent<SimpleFPS>().lockCamera = false;
             Cursor.visible = false;
             Cursor.lockState = CursorLockMode.Confined;
         }
@@ -74,7 +75,8 @@ public class Keypad : MonoBehaviour
     public void Exit()
     {
         keypadOB.SetActive(false);
-        player.GetComponent<CharacterController>().enabled = true;
+        player.transform.position = player.transform.position;
+        player.GetComponent<SimpleFPS>().lockCamera = false;
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Confined;
         
@@ -95,8 +97,8 @@ public class Keypad : MonoBehaviour
 
         if (keypadOB.activeInHierarchy)
         {
-            
-            player.GetComponent<CharacterController>().enabled = false;
+            player.transform.position = player.transform.position;
+            player.GetComponent<SimpleFPS>().lockCamera = true;
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.Confined;
             
