@@ -30,7 +30,7 @@ public class OilCan : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E) && inReach)
         {
             oilPickedUp = true;
-            oilCan.SetActive(false);
+            Destroy(oilCan);
             fillSound.Play();
             amount = LanternFuel.getFuelAmount();
             LanternFuel.setFuelAmount(amount++);
