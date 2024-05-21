@@ -1,4 +1,4 @@
-# Google-Jam-2024
+# Google-Jam-2024-
 ## Made for Google Game & Application Academy Game Jam
 Creators:
 - [Muhammed Talha Yayla](https://github.com/mtalhaYAYLA)
